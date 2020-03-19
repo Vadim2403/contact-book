@@ -1,0 +1,56 @@
+.contactItem{
+    width: 300px;
+    padding: 25px;
+    margin: 15px;
+
+    float:left;
+    list-style-type: none;
+}
+.contactItem h3{
+    color:white;
+}
+.contactItem img{
+    width: 100%;
+    border: 5px solid #FFFFFF;
+}
+.contactItem:hover{
+    background-color: white;
+    
+}
+.contactItem:hover h3{
+    color: #111;
+}
+
+.contactItem:hover button{
+    background-color: #111 !important;
+    color: white !important;
+}
+.contactItem:hover img{
+    border: 5px solid #111;
+}
+
+.fa-star-o{
+    margin-left: 25px;
+    color:white;
+    font-size: 50px;
+}
+.contactItem:hover .fa-star-o{
+    color:#111;
+}
+.fa-star{
+    margin-left: 25px;
+    color:white;
+    font-size: 50px;
+}
+.contactItem:hover .fa-star{
+    color:#111;
+}
+
+.fa-trash{
+    margin-left: 10px;
+    color:white;
+    font-size: 50px;
+}
+.contactItem:hover .fa-trash{
+    color:#111;
+}
