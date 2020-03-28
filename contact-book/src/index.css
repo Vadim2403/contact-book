@@ -76,3 +76,19 @@ p {
 	text-shadow: .022em .022em .022em #111;
 	color: #fff;
 }
+.topnav input[type=text] {
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+  }
+  .topnav button{
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+  }

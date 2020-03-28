@@ -1,6 +1,6 @@
 import React, {Fragment, Component} from "react";
 import "./ContactItem.css";
-
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 class ContactItem extends Component{
     state = {
         name: this.props.name,
@@ -46,9 +46,9 @@ class ContactItem extends Component{
                 <h3><i class="fa fa-map-marker" aria-hidden="true"></i>  {street}</h3>
                 <h3><i class="fa fa-envelope-o" aria-hidden="true"></i>  {email}</h3>
                 <button onClick={this.randomImage.bind(this)} className="btn btn-light">Random Image</button>
-                
                 <i onClick={this.props.changeRate} className={this.props.classStar} aria-hidden="true"></i>
                 <i onClick={this.props.deleteContact}  class="fa fa-trash" aria-hidden="true"></i>  
+                <Link  className="linka" to="/editContact"><p onClick={this.props.editObj}>Edit</p></Link> 
                 {/* onClick={this.changeRate.bind(this)} */}
             </li>
         </Fragment>
